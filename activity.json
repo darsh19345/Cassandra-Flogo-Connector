@@ -1,0 +1,26 @@
+{
+  "name": "Cassandra-Flogo-Connector",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "description": "Cass Connection activity description",
+  "version": "0.0.1",
+  "title": "CassaDB",
+  "ref": "github.com/darsh19345/Cassandra-Flogo-Connector", 
+
+  "inputs":[
+    {
+      "name": "ClusterIP",
+      "type": "string"
+    },
+	{
+      "name": "Keyspace",
+      "type": "string"
+    }	
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "string"
+    }
+  ]
+}
